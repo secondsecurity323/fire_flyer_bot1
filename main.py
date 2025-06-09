@@ -2,8 +2,8 @@
 import telebot
 from flask import Flask, request
 
-TOKEN = os.environ.get('BOT_TOKEN')
-OWNER_ID = int(os.environ.get('OWNER_ID'))
+TOKEN =7330507162:AAGBzEhn-wwwdiGoHIflj1W47cTnbcrQL3c
+OWNER_ID =1656844563
 
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
